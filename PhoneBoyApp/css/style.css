@@ -1,0 +1,130 @@
+body {
+    font: 1em Arial,Helvetica,sans-serif;
+    background-color: #575757;
+}
+
+body p {
+    color: #FFF;
+}
+
+a {
+    color: #669;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font: bold 36px/100% Arial,Helvetica,sans-serif;
+}
+
+/**** STRUCTURE ****/
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+
+#logo-container img {
+    width: 100%;
+    height: auto;
+}
+
+#bannerresponsive img {
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    width: 100%;
+   height: auto;
+}
+
+#leftresponsive img {
+    width: 50%;
+    height: auto;
+	float: left;
+}
+
+#rightresponsive img {
+    width: 50%;
+    height: auto;
+	float: left;
+}
+
+#logo-container1 img {
+    width: 100%;
+    height: auto;
+}
+
+#footer {
+    clear: both;
+    font-size: small;
+}
+
+/**** border & guidelines ****/
+#content {
+    background: #575757;
+}
+
+#header,#content {
+    margin-bottom: 5px;
+}
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+#pagewrap {
+    width: 94%;
+}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+#content {
+    width: auto;
+    float: none;
+}
+}
+
+/* for 480p or less */
+@media screen and (max-width: 480px) {
+#header, #bannerresponsive {
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+}
+
+/* button current game */
+.buttonHolder{ 
+	text-align: center; 
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #88174d;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #a8345f;
+}	
+
+.button:hover {
+	background-color: #88174d;
+}
+
+.button:active {
+  background-color: #70113e;
+  box-shadow: 0 5px #70113e;
+  transform: translateY(4px);
+}
